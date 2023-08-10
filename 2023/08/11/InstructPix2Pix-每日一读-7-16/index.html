@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>InstructPix2Pix - 每日一读[7.16] | Good Morning</title><meta name="author" content="Yichen"><meta name="copyright" content="Yichen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="[image](Brooks 等, 2023, p. 1) 论文链接： http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.09800 发布时间：2023.6.18  一、研究方向：图像编辑，GPT3+Stable Diffusion预训练模型组合。 *注：记得之前分享过的csd用了instructPix2Pix，之后要分享的prompt2prompt也可以读一下，它是instructPix2Pi">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>InstructPix2Pix - 每日一读[7.16] | Good Morning</title><meta name="author" content="Yichen"><meta name="copyright" content="Yichen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="论文链接： http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.09800 发布时间：2023.6.18  一、研究方向：图像编辑，GPT3+Stable Diffusion预训练模型组合。 *注：记得之前分享过的csd用了instructPix2Pix，之后要分享的prompt2prompt也可以读一下，它是instructPix2Pix中很重要的一环节。 二、研究动机： 根据人类的instr">
 <meta property="og:type" content="article">
 <meta property="og:title" content="InstructPix2Pix - 每日一读[7.16]">
 <meta property="og:url" content="http://y-ichen.github.io/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/index.html">
 <meta property="og:site_name" content="Good Morning">
-<meta property="og:description" content="[image](Brooks 等, 2023, p. 1) 论文链接： http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.09800 发布时间：2023.6.18  一、研究方向：图像编辑，GPT3+Stable Diffusion预训练模型组合。 *注：记得之前分享过的csd用了instructPix2Pix，之后要分享的prompt2prompt也可以读一下，它是instructPix2Pi">
+<meta property="og:description" content="论文链接： http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.09800 发布时间：2023.6.18  一、研究方向：图像编辑，GPT3+Stable Diffusion预训练模型组合。 *注：记得之前分享过的csd用了instructPix2Pix，之后要分享的prompt2prompt也可以读一下，它是instructPix2Pix中很重要的一环节。 二、研究动机： 根据人类的instr">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://y-ichen.github.io/img/avatar.jpg">
 <meta property="article:published_time" content="2023-08-10T16:53:29.000Z">
-<meta property="article:modified_time" content="2023-08-10T16:53:41.266Z">
+<meta property="article:modified_time" content="2023-08-10T17:03:42.988Z">
 <meta property="article:author" content="Yichen">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://y-ichen.github.io/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://y-ichen.github.io/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
@@ -57,7 +57,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-08-11 00:53:41'
+  postUpdate: '2023-08-11 01:03:42'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -161,7 +161,7 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Good Morning"><span class="site-name">Good Morning</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">InstructPix2Pix - 每日一读[7.16]</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-08-10T16:53:29.000Z" title="Created 2023-08-11 00:53:29">2023-08-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-08-10T16:53:41.266Z" title="Updated 2023-08-11 00:53:41">2023-08-11</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="InstructPix2Pix - 每日一读[7.16]"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[image]<br>(Brooks 等, 2023, p. 1)</p>
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Good Morning"><span class="site-name">Good Morning</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">InstructPix2Pix - 每日一读[7.16]</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-08-10T16:53:29.000Z" title="Created 2023-08-11 00:53:29">2023-08-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-08-10T17:03:42.988Z" title="Updated 2023-08-11 01:03:42">2023-08-11</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="InstructPix2Pix - 每日一读[7.16]"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/1.png"></p>
 <p>论文链接：</p>
 <p><a target="_blank" rel="noopener" href="http://arxiv.org/abs/2211.09800">http://arxiv.org/abs/2211.09800</a></p>
 <p>发布时间：2023.6.18</p>
@@ -173,7 +173,7 @@
 <li>用GPT3和SD互补语言和图像的知识</li>
 <li>zero-shot generation，无需inversion，一次前向传播快速搞定</li>
 </ol>
-<p>[image]<br>(Brooks 等, 2023, p. 3)</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/2.png"></p>
 <h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol>
 <li><p>生成配对数据集（三元组）</p>
 <ul>
@@ -188,25 +188,25 @@
 </ul>
 </li>
 </ol>
-<p>[image]<br>(Brooks 等, 2023, p. 3)</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/3.png"></p>
 <p>2. 用三元组数据监督训练扩散模型</p>
-<p>[image]<br>(Brooks 等, 2023, p. 4)其中CI是源图像, CT是指令，共同作为条件输入</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/4.png"><br>其中CI是源图像, CT是指令，共同作为条件输入</p>
 <p>结合cfg进行条件权重混合：</p>
-<p>[image]<br>(Brooks 等, 2023, p. 5)第一项无条件，第二项图像条件，第三项指令条件</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/5.png"><br>第一项无条件，第二项图像条件，第三项指令条件</p>
 <h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><ol>
 <li>图像编辑</li>
 </ol>
-<p>[image]<br>(Brooks 等, 2023, p. 1)</p>
-<p>[image]<br>(Brooks 等, 2023, p. 9)</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/6.png"></p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/7.png"></p>
 <p>2. CLIP Similarity：明显更高</p>
-<p>[image]<br>(Brooks 等, 2023, p. 7)</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/8.png"></p>
 <p>3. 与baseline比较（SDEdit, T2L）</p>
-<p>[image]<br>(Brooks 等, 2023, p. 7)</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/9.png"></p>
 <p>4. Ablation</p>
 <p>数据清洗程度</p>
-<p>[image]<br>(Brooks 等, 2023, p. 7)</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/10.png"></p>
 <p>不同cfg权重</p>
-<p>[image]<br>(Brooks 等, 2023, p. 5)</p>
+<p><img src="/2023/08/11/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/11.png"></p>
 <h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><ol>
 <li>提出了一种结合两个大型预训练模型的方法</li>
 <li>根据instruction编辑图像</li>
