@@ -23,13 +23,13 @@
     <published>2023-08-07T16:56:03.000Z</published>
     <updated>2023-08-10T17:13:02.144Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/1.png"></p><p>论文链接：<a href="http://arxiv.org/abs/2301.07525">http://arxiv.org/abs/2301.07525</a></p><p>发布时间：2023-04-11</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>3D数据集</p><p><img src="/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/2.png"></p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><p>提出OmniObject3D，是一个包含大量高质量真实扫描 3D 对象的广泛语义数据集。（而非合成数据集）</p><ol><li>包含6000个对象，190个日常类别</li><li>每个3D对象均通过2D和3D传感器采集，提供纹理网格、点云、多视图渲染图像和多个真实采集的视频</li><li>具有精确的形状和逼真的外观</li></ol><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol><li>预定义类别列表（与几个著名的 2D 和 3D 数据集共享许多共同类别，例如，覆盖了 ImageNet  中的 85 个类别和 LVIS 中的 130 个类别）</li><li>收集和高质量扫描各类别物体，获得3D模型</li><li>根据3D模型，用blender渲染多视角图像，用Open3D工具箱采样多分辨率点云</li><li>用iPhone 12 Pro拍摄360°视频，然后用COMAP注释帧</li></ol><h2 id="四、实验："><a href="#四、实验：" class="headerlink" title="四、实验："></a>四、实验：</h2><ol><li><p>Robust 3D Perception</p></li><li><p>Novel View Synthesis</p><ul><li>single-scene</li><li>cross-scene</li></ul></li><li><p>Neural Surface Reconstruction</p><ul><li>dense-view</li><li>sparse-view</li></ul></li><li><p>3D Object Generation</p><ul><li>semantic distribution</li><li>diversity and quality</li></ul></li></ol><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>包括切碎、咬一口等变体数据：</li></ul><p><img src="/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/3.png"></p><ul><li>看起来质量很高</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>ModelNet40: 12311个CAD模型，40个类别</li><li>ShapeNet: 51300个CAD模型，55个类别</li><li>ScanObjectNN: 15000个室内扫描场景点云，15个类别</li><li>GSO：1030个精细几何形状和纹理的家居，17个类别</li><li>AKB-48：2037个铰接物体模型，48个类别</li><li>CO3D v1: 19000个以对象为中心的视频</li><li>3D-FUTRUE</li><li>ABO</li><li>DTU</li><li>BlendedMVS</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;a href=&quot;http://arxiv.org/abs/2301.07525&quot;</summary>
       
     
     
@@ -46,13 +46,13 @@
     <published>2023-08-06T16:55:27.000Z</published>
     <updated>2023-08-10T17:12:56.096Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/1.png"></p><p>论文链接：<a href="http://arxiv.org/abs/2012.02190">http://arxiv.org/abs/2012.02190</a></p><p>发布时间：2021-05-30</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>少视角合成，单视图重建</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><p>issues：</p><ol><li>NeRF需要许多输入视图和逐场景大量优化时间</li><li>传统少视角合成方法的相机姿态受限</li><li>传统方法需要3D监督或者mask</li><li>大多数现有方法在canonical space中运行</li></ol><p>motivation：</p><ol><li>少视角合成，跨场景泛化</li><li>PixelNeRF是完全前馈的，只需要相对的相机姿态</li><li>只需要image监督</li><li>PixelNeRF 在view space中运行，可以更好地重建未见的对象类别，并且不鼓励记忆训练集</li></ol><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol><li>单视角合成：</li></ol><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/2.png"></p><p>图片先过卷积得到特征W，然后对于沿着具有视角方向d的目标摄像机射线的查询点x，通过投影和插值从特征体W中提取相应的图像特征。然后将该特征与空间坐标一起传递到 NeRF 网络 f 中。输出的 RGB 和密度值经过体积渲染并与目标像素值进行比较。坐标 x 和 d 位于输入视图的相机坐标系中。</p><p>2. 少视角合成（数量可变）：</p><p>对于每个已知视角同上思路计算中间值Vi:</p><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/3.png"></p><p>聚合每个Vi预测最终的RGB和密度值：</p><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/4.png"></p><h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><h2 id="单类别训练的："><a href="#单类别训练的：" class="headerlink" title="单类别训练的："></a>单类别训练的：</h2><p>单视角重建</p><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/5.png"></p><p>2-视角重建</p><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/6.png"></p><h2 id="类别无关训练的："><a href="#类别无关训练的：" class="headerlink" title="类别无关训练的："></a>类别无关训练的：</h2><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/7.png"></p><h2 id="泛化到未见类别："><a href="#泛化到未见类别：" class="headerlink" title="泛化到未见类别："></a>泛化到未见类别：</h2><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/8.png"></p><h2 id="360°重建："><a href="#360°重建：" class="headerlink" title="360°重建："></a>360°重建：</h2><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/9.png"></p><h2 id="真实数据集上："><a href="#真实数据集上：" class="headerlink" title="真实数据集上："></a>真实数据集上：</h2><p><img src="/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/10.png"></p><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>从论文呈现的结果来看真实数据集上的表现并不好</li><li>CNN限制了合成精度</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>pixelNeRF: Neural Radiance Fields from One or Few Images</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;a href=&quot;http://arxiv.org/abs/2012.02190&quot;&gt;ht</summary>
       
     
     
@@ -69,13 +69,14 @@
     <published>2023-07-18T16:54:48.000Z</published>
     <updated>2023-08-10T17:13:13.988Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/1.png"></p><p>论文链接：</p><p><a href="http://arxiv.org/abs/2306.03414">http://arxiv.org/abs/2306.03414</a></p><p>发布时间：2023.6.16</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>novel view synthesis, 单物体&#x2F;场景级别的少视角, lift 2D to 3D</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><ol><li><p>task：利用预训练的2D diffusion帮助少视角3D生成任务</p></li><li><p>novelty：不需要逐对象训练</p></li><li><p>insight：</p><ul><li>需要为2D扩散模型引入3D先验，即多视角的聚合特征</li><li>需要保证生成的新视角与ref gt的identity一致性</li></ul></li><li><p>三步走策略：</p><ul><li>感知：用一种3D Geometry Module来聚合3D特征</li><li>guidance：提出了一种spatial guidance来使用聚合特征引导扩散模型，保证几何一致性</li><li>identity：提出了一种noise perturbation method，保证identity一致性</li></ul></li></ol><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><p>（input：一组上下文图像，output：新视角合成）</p><ol><li>训练3D Geometry Module</li></ol><ul><li><p>单张图像逐点密度加权：ResNet主干提取语义特征&amp;reshape成4维体积表示，双线性采样对齐空间维度，三线性插值拼接特征向量，线性投影层加权</p></li><li><p>上下文图像特征聚合：对每条查询射线target，计算每个相应上下文图像的相应射线特征，然后聚合：</p><p>  <img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/2.png"></p></li><li><p>颜色聚合：</p><p>  <img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/3.png"></p><p>  <img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/4.png"></p></li></ul><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/5.png"> spatial feature的可视化</p><p>2. 为spatial guidance训练controlnet：</p><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/6.png"> T是引导模块</p><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/7.png"> 在训练时，使用真实图像作为 x0 来优化 L_diffusion，在推理时，使用从 gφ,color 渲染的图像来初始化 x0。</p><p>3. noise perturbation method：加一定steps的噪声（其实说白了就是控制去噪步数）</p><p>pipeline:</p><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/8.png"></p><h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><ol><li>和baseline比较</li></ol><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/9.png"></p><p>2. LPIPS Score 和FID：</p><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/10.png"></p><p>3. 新视角合成（物体级别和场景级别）</p><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/11.png"></p><p>4. 结合文本引导</p><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/12.png"></p><p>5. Ablation</p><ul><li>spatial guidance 的 CFG Scale：</li></ul><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/13.png"></p><ul><li>noise perturbation 的 steps：</li></ul><p><img src="/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/14.png"></p><h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><ol><li>少视角重建</li><li>可泛化</li></ol><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>noise perturbation保证一致性看起来不太科学，和identity consistency其实关系很弱，感觉主要还是因为和spatial guidance的配合</li><li>limitation：很难生成复杂场景</li><li>但是gemometry感知和引导的方法值得学习</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>Sparsefusion: Distilling view-conditioned diffusion for 3d reconstruction</li><li>Generative novel view synthesis with 3d-aware diffusion models</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://arxiv.org/abs/230</summary>
       
     
     
@@ -92,13 +93,14 @@
     <published>2023-07-17T16:54:22.000Z</published>
     <updated>2023-08-10T17:12:36.001Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/1.png"></p><p>论文链接：</p><p><a href="http://arxiv.org/abs/2208.01626">http://arxiv.org/abs/2208.01626</a></p><p>发布时间：2022.8.2</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>text-driven image editing（任务包括局部编辑，全局编辑，单词语义效果编辑，都是text-only的）</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><ol><li>task: 设计一种直观的prompt-to-prompt编辑框架，其中编辑仅由文本控制</li></ol><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/2.png"></p><p>2. insight: 在扩散过程中注入cross attention map, 通过修改交叉注意层中发生的像素到文本的交互, 实现图像编辑</p><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol><li>根据图像和文本计算attention map：</li></ol><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/3.png"></p><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/4.png"> Q是图像feature，KV是文本embeddings，M是输出的attantion map</p><p>2. 通过编辑扩散过程的cross attention map来实现图像编辑</p><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/5.png"></p><p>这里区分三种类型的编辑任务：</p><ul><li>Word Swap（P &#x3D;“a big red <strong>bicycle</strong>” -&gt; P∗ &#x3D;“a big red <strong>car</strong>”）：直接把attention map替换成编辑目标的.</li></ul><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/6.png"></p><ul><li>Adding a New Phrase (P &#x3D;“a castle next to a river” to P∗ &#x3D;“<strong>children drawing of</strong> a castle next to a river”): 创建一个索引，原有的token使用原有的attention map，新增的token索引到新的attention map</li></ul><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/7.png"></p><ul><li>Attention Re-weighting (P &#x3D; “a fluffy red ball”, and assume we want to make the ball <strong>more or less</strong> fluffy): 按-2~2的权重缩放</li></ul><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/8.png"></p><h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><ol><li>Text-Only Localized Editing</li></ol><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/9.png"></p><p>2. Global editing.</p><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/10.png"></p><p>3. Fader Control using Attention Re-weighting.</p><p><img src="/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/11.png"></p><h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><ol><li>通过cross attn控制扩散过程</li><li>不需要inversion</li></ol><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>是非常科学的控制方法</li><li>limitation是没有空间感知和移动能力</li><li>计算策略不够灵活</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>InstructPix2Pix: Learning to Follow Image Editing Instructions</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://arxiv.org/ab</summary>
       
     
     
@@ -115,13 +117,14 @@
     <published>2023-07-16T16:53:56.000Z</published>
     <updated>2023-08-10T17:12:46.894Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/1.png"></p><p>论文链接：</p><p><a href="http://arxiv.org/abs/2305.01115">http://arxiv.org/abs/2305.01115</a></p><p>发布时间：2023.5.1</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>扩散模型的in-context learning，vision-language prompt，视觉任务集成</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><ol><li>LLM的in-context learning发展得很好（特别是GPT系列展现出的涌现能力），所以也想应用到大规模视觉模型</li><li>设计有效的vision prompt非常困难</li><li>以前的工作大多数是针对下游任务做finetune，而不是根据上下文来学习</li><li>于是提出了一种新的模型架构“Prompt Diffusion”，可以在视觉语言提示下执行上下文学习，可以通用于不同视觉语言任务</li></ol><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/2.png"><br>直观看是这样的，这里聚合了6个不同任务以代表通用性（包括正向任务和逆向任务）</p><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol><li>定义一个通用的vision-language任务，格式是：</li></ol><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/3.png"><br>很直观展示了什么是in-context和vision prompt</p><p>2. 架构基于controlnet</p><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/4.png"></p><p>这里需要注意的是条件的构造：</p><ul><li>对于text encoder的输入，依然只是文本text</li><li>对于controlnet的输入，不再只是单张query image，而是concat并投影到合适维度后的example image pairs和query image的加和（卷积堆叠）</li></ul><p>3. 数据集：包含大约310000个图像标题对</p><p>4. 训练方法：6各任务上联合训练，cfg</p><p>训练目标构造很直白：</p><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/5.png"> 正向任务</p><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/6.png"> 逆向任务</p><h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><ol><li>6个任务的定性评估</li></ol><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/7.png"></p><p>2. 和task-specific模型比较：</p><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/8.png"></p><p>3. 新任务（3个）上的泛化</p><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/9.png"></p><p>4. 图像编辑</p><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/10.png"></p><p>5. failure case</p><p><img src="/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/11.png"></p><h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><ol><li>提出了一种novel的vision-language prompt来集成各种视觉语言任务</li><li>Prompt Diffusion 模型是第一个diffusion-based多功能视觉语言基础模型，能够进行上下文学习</li><li>高质量，泛化性</li></ol><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>提出了一种非常好的vision-language任务新范式，但是条件的构造太弱了</li><li>依赖于数据量和数据质量，非常受限于计算资源</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://arxiv.org/ab</summary>
       
     
     
@@ -138,13 +141,14 @@
     <published>2023-07-15T16:53:29.000Z</published>
     <updated>2023-08-10T17:13:09.772Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/1.png"></p><p>论文链接：</p><p><a href="http://arxiv.org/abs/2211.09800">http://arxiv.org/abs/2211.09800</a></p><p>发布时间：2023.6.18</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>图像编辑，GPT3+Stable Diffusion预训练模型组合。</p><p>*注：记得之前分享过的csd用了instructPix2Pix，之后要分享的prompt2prompt也可以读一下，它是instructPix2Pix中很重要的一环节。</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><ol><li>根据人类的<strong>instruction</strong>编辑图像（包括替换对象、风格修改、艺术化等）。</li><li>用GPT3和SD互补语言和图像的知识</li><li>zero-shot generation，无需inversion，一次前向传播快速搞定</li></ol><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/2.png"></p><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol><li><p>生成配对数据集（三元组）</p><ul><li><p>input caption来自LAION-Aesthetics图像标题</p></li><li><p>GPT-3（微调的）生成instruciotn和edited caption，</p></li><li><p>stable diffusion（结合prompt2prompt）生成input caption和edited caption的图像对</p></li><li><p>于是生成的每个数据都是三元组（src img, instruction, edited img）</p></li></ul></li></ol><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/3.png"></p><p>2. 用三元组数据监督训练扩散模型</p><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/4.png"><br>其中CI是源图像, CT是指令，共同作为条件输入</p><p>结合cfg进行条件权重混合：</p><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/5.png"><br>第一项无条件，第二项图像条件，第三项指令条件</p><h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><ol><li>图像编辑</li></ol><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/6.png"></p><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/7.png"></p><p>2. CLIP Similarity：明显更高</p><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/8.png"></p><p>3. 与baseline比较（SDEdit, T2L）</p><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/9.png"></p><p>4. Ablation</p><p>数据清洗程度</p><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/10.png"></p><p>不同cfg权重</p><p><img src="/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/11.png"></p><h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><ol><li>提出了一种结合两个大型预训练模型的方法</li><li>根据instruction编辑图像</li></ol><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>pipeline非常简单，其实主要贡献是工程性的</li><li>非常依赖于数据清洗</li><li>能力受限于GPT3和promp-to-prompt</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>Collaborative Score Distillation for Consistent Visual Synthesis</li><li>Prompt-to-Prompt Image Editing with Cross Attention Control</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://arxiv.org/abs</summary>
       
     
     
@@ -161,13 +165,14 @@
     <published>2023-07-14T16:52:43.000Z</published>
     <updated>2023-08-10T17:13:18.596Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/1.png"></p><p>论文链接：</p><p><a href="http://arxiv.org/abs/2209.14988">http://arxiv.org/abs/2209.14988</a></p><p>发布时间：2022.9.29</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>Zero-shot 的 text-to-3D合成 的经典之作</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><ol><li>lift pretrained 2D generations to 3Ds. （当时还没有很好的方法来把预训练的2D生成模型用到3D生成任务上，再考虑到那时候diffusion和nerf都很火，dreamfusion成功地把它们结合起来了，效果在当时很优秀）</li><li>对标CLIP Loss，提出了SDS Loss（在一年后的今天，又出现了很多改进版的loss，例如之前讲的DDS，VSD，CSD）</li></ol><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><p>没什么好说的，就是把2D Diffusion固定住，然后重建目标是一个nerf的一个视角渲染，recon loss的梯度传回3D场而不是用于训练2D模型，这样就把2D pretrained模型的信息蒸馏到了3D场里。</p><p><img src="/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/2.png"></p><p>显而易见的pipeline：</p><p><img src="/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/3.png"></p><h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><p>不重要，已经过去一年了。</p><p><img src="/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/4.png"></p><h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><p>SDS Loss</p><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>SDS是过去一年几乎所有基于pretrained diffusion的3D generation任务的基石</li><li>效果在如今已经算是一般般了，没必要看</li><li>预计下半年会出现越来越多替代SDS的新型loss</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>Collaborative Score Distillation for Consistent Visual Synthesis</li><li>ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</li><li>Delta Denoising Score</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://arxiv.org/abs/220</summary>
       
     
     
@@ -184,13 +189,14 @@
     <published>2023-07-13T16:14:56.000Z</published>
     <updated>2023-08-10T17:13:25.904Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/1.png"></p><p>论文链接：</p><p><a href="http://arxiv.org/abs/2307.04787">http://arxiv.org/abs/2307.04787</a></p><p>发布时间：2023.7.4</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>跨模态的视觉生成任务，包括全景图像、视频和3D场景编辑，对标SDS Loss（可以结合我们之前讲解过的DDS和VSD进行比较）。</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><ol><li><p>task：如何将预训练的文本到图像扩散模型的知识应用于二维图像之外的<strong>更复杂的高维视觉生成</strong>任务（全景图像、视频、3D），而无需使用特定于模态的训练数据修改扩散模型（<strong>Zero-shot</strong>）</p></li><li><p>insight：许多复杂的视觉数据，例如视频和 3D 场景，都被表示为一组<strong>受特定模态一致性约束</strong>的图像（例如时间一致性和视角一致性），但是普通的扩散模型生成结果是不具有这种一致性的</p></li><li><p>related work：SDS Loss，其实是一种3D object先验，并且尚未被用于其他模态</p></li><li><p>获得神秘启发：</p><ol><li>使用 Stein 变分梯度下降 (SVGD) 建立 SDS 的泛化，其中多个样本共享从扩散模型中提取的知识，以实现样本间的一致性</li><li>结合Instruct-Pix2Pix来进行一致视觉编辑（指令引导的扩散模型，任务显而易见地包括三元组：src image，instruction y，edited image）</li></ol></li></ol><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol><li>回顾</li></ol><ul><li>CFG Guidance（前面的文章有讲过）：</li></ul><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/2.png"><br>(Kim 等, 2023, p. 3)其中w是guidance scale</p><p>条件模型和无条件模型的混合实现text引导。</p><ul><li>Instruct-Pix2Pix（之后的文章会讲）：</li></ul><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/3.png"><br>(Kim 等, 2023, p. 3)其中wy是cfg guidance scale，ws控制fidelity</p><p>cfg类似思路，实现src img+instruction text的引导</p><ul><li>SDS Loss（典）</li></ul><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/4.png"><br>(Kim 等, 2023, p. 4)</p><p>蒸馏2D generations到3D representations</p><ul><li>SVGD</li></ul><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/5.png"><br>(Kim 等, 2023, p. 5)一种梯度下降方法，这里具体采用RBF核</p><p>2. CSD（多个样本的一致合成和编辑）</p><ul><li>CSD Loss（多样本一致的合成）：</li></ul><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/6.png"><br>(Kim 等, 2023, p. 5)依然和VSD类似，用一组参数θ来建模先验分布，然后按权重混合N个样本的分数，特别地，其中的kernel梯度（黄色项）充当排斥里以防止模式崩溃。噪声项左乘kernel（蓝色项）的作用是保证θi 上的每个参数更新都会受到其他参数的影响。</p><ul><li>CSD-Edit Loss（多样本一致的编辑）</li></ul><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/7.png"><br>(Kim 等, 2023, p. 6)把噪声估计项的基线改为了instruct-pix2pix中的噪声估计，以引入zero-shot的编辑能力。</p><p>3. Pipeline</p><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/8.png"><br>(Kim 等, 2023, p. 2)</p><h2 id="四、实验结果："><a href="#四、实验结果：" class="headerlink" title="四、实验结果："></a>四、实验结果：</h2><ol><li>全景图像编辑：空间一致（多块优化）</li></ol><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/9.png"><br>(Kim 等, 2023, p. 3)</p><p>2. 视频编辑：时间一致性（多帧优化）</p><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/10.png"><br>(Kim 等, 2023, p. 4)</p><p>3. 3D场景编辑：视图一致性</p><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/11.png"><br>(Kim 等, 2023, p. 5)</p><p>4. text-to-3D Generation</p><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/12.png"><br>(Kim 等, 2023, p. 8)</p><p>5. Ablations: 有无SVGD</p><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/13.png"><br>(Kim 等, 2023, p. 9)</p><p>6. CLIP Scores 和 LPIPS</p><p><img src="/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/14.png"><br>(Kim 等, 2023, p. 7)</p><h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><p>提出了协作分数蒸馏（CSD）以实现一致的视觉合成和操作。</p><p>提出了 CSD-Edit，它通过从指令引导的扩散模型中提取最少但足够的信息来对图像进行一致的编辑。</p><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ul><li>粒子的思路和VSD非常像，但是实现方式上完全不同（CSD用kernel，VSD用lora）</li><li>novelty在于kernel和SVGD的引入可以同步优化多个样本</li><li>novelty也适用于多个模态的生成和编辑，不仅仅是3D</li><li>eidt的思路类似于DDS</li></ul><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</li><li>DreamFusion: Text-to-3D using 2D Diffusion</li><li>Delta Denoising Score</li><li>InstructPix2Pix: Learning to Follow Image Editing Instructions</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;htt</summary>
       
     
     
@@ -207,13 +213,14 @@
     <published>2023-07-12T16:46:19.000Z</published>
     <updated>2023-08-10T17:12:50.672Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/1.png"></p><p>论文链接：</p><p><a href="http://arxiv.org/abs/2305.16213">http://arxiv.org/abs/2305.16213</a></p><p>发布时间：2023.5.25</p><hr><h2 id="一、研究方向："><a href="#一、研究方向：" class="headerlink" title="一、研究方向："></a>一、研究方向：</h2><p>提出新的text-to-3D蒸馏方案VSD Loss，对标DreamFusion的SDS Loss。实验结果相当炸裂，是text-to-3D生成模型领域的突破性工作。</p><h2 id="二、研究动机："><a href="#二、研究动机：" class="headerlink" title="二、研究动机："></a>二、研究动机：</h2><ol><li>经典的lift 2D to 3D动机：</li></ol><p>利用预训练的扩散模型实现text-to-3D的生成任务。</p><p>2. 经典，怼SDS存在的问题：</p><p>过饱和、过平滑、低多样性（生成结果的模式单一）</p><p>3. 获得神秘启发：</p><ul><li>不能像SDS那样单点优化</li><li>因为多个3D场景应当和一个提示对齐（多对一，而非一对一），所以把将3D场景视为满足一定先验分布的随机变量，而不是变量</li><li>维护一组3D参数作为粒子来表示这个基于给定文本提示的3D分布（后面说到用lora实现）</li><li>使用低至7.5的CFG分数（这样就不容易模式崩溃，更符合在分布中“采样”的思路，区别于SDS的100）</li></ul><h2 id="三、方法与技术："><a href="#三、方法与技术：" class="headerlink" title="三、方法与技术："></a>三、方法与技术：</h2><ol><li>回顾SDS Loss</li></ol><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/2.png"></p><p>2. 对服从文本提示y的3D分布建模，并且和扩散模型对齐：</p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/3.png"></p><p>3. 用一组θ表示粒子，推导出优化目标：</p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/4.png"></p><p>注意它的实现：</p><blockquote><p>在实践中，我们通过预训练模型 εpretrain(xt, t, y) 的小型 U-Net [38] 或 LoRA（低秩自适应 [18, 39]）对 εφ 进行参数化，并将额外的相机参数 c 作为条件嵌入添加到网络。</p><p>“In practice, we parameterize εφ by either a small U-Net [38] or a LoRA (Low-rank adaptation [18, 39]) of the pretrained model εpretrain(xt, t, y), and add additional camera parameter c to the condition embeddings in the network.” (Wang 等, 2023, p. 6)</p></blockquote><p>4. 最终推出VSD Loss（显而易见和SDS的区别在于后一项）</p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/5.png"></p><p>5. Pipeline（相比于SDS，加了一个unet_lora来建模后面那一项）<br>(Wang 等, 2023, p. 6)</p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/6.png"></p><h2 id="四、实验结果"><a href="#四、实验结果" class="headerlink" title="四、实验结果"></a>四、实验结果</h2><ol><li><p>VSD和SDS相关工作的比较</p><ul><li>SDS是VSD的特例</li><li>VSD适用于低CFG Guidance，且灵活</li></ul></li></ol><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/7.png"></p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/8.png"></p><p>2. text-to-3D</p><p>单物体和室内场景都能做：</p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/9.png"></p><p>精度级别的提高是飞跃性的：</p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/10.png"></p><p>3. Ablation：不同分辨率</p><p><img src="/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/11.png"></p><h2 id="五、主要贡献："><a href="#五、主要贡献：" class="headerlink" title="五、主要贡献："></a>五、主要贡献：</h2><p>对于text-to-3D生成，提出了vsd loss</p><hr><h2 id="评价："><a href="#评价：" class="headerlink" title="评价："></a>评价：</h2><ol><li>数学体系是比较完备的</li><li>pipeline很合理，但是其实并不容易做，用lora来实现是一大神秘的成就</li><li>效果非常非常牛逼</li><li>笔者跑了它的非官方code，但是不管怎样调参都存在很严重的multiface问题，场景合成结果也不合理，不知道是不是code的问题（但感觉并不是）</li><li>仅仅是提升了精度的上下限，并没有解决lift 2D to 3D工作存在的一大堆本质问题。但是底层思路是绝对正确的，未来可期。</li></ol><h2 id="推荐相关阅读："><a href="#推荐相关阅读：" class="headerlink" title="推荐相关阅读："></a>推荐相关阅读：</h2><ul><li>Collaborative Score Distillation for Consistent Visual Synthesis</li><li>DreamFusion: Text-to-3D using 2D Diffusion</li><li>Delta Denoising Score</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://arxiv.org/abs</summary>
       
     
     
@@ -230,13 +237,13 @@
     <published>2023-07-11T16:27:02.000Z</published>
     <updated>2023-08-10T17:13:22.745Z</updated>
     
+    <content type="html"><![CDATA[<p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-1.png"></p><p>论文链接：<a href="http://arxiv.org/abs/2304.07090">http://arxiv.org/abs/2304.07090</a></p><p>发布时间：2023-04-14</p><hr><p>一、研究方向：</p><p>T2I图像编辑（zero-shot，text-only）</p><p>二、研究动机：</p><p>对标DreamFusion的SDS Loss，提出了一种新的优化目标称为DDS Loss用于2D图像编辑。可以认为DDS Loss是校正后的SDS Loss。（记住它们，之后的文章还会讲VSD Loss和CSD Loss）。</p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-2.png"></p><p>先怼SDS作为2D先验的缺点：</p><ol><li>多样性差，模式单一</li><li>编辑结果模糊（因为是文本图像一对一优化）</li></ol><p>然后得到神秘启发：</p><ol><li>认为SDS包含一些不必要的梯度导致了上述模式崩溃</li><li>通过reference的图像-文本描述对，估计SDS引入的不良噪声梯度方向。</li><li>所以，指导target图像的编辑的时候用SDS Loss减掉它就好了</li></ol><p>三、方法与技术：</p><ol><li>分解SDS Loss</li></ol><p>先回顾一下大家都很熟悉的SDS Loss（它本来是用来做3D生成任务的，但是其实也可以扩展到图像编辑任务）：</p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-3.png"><br>作者认为其中包含了导致崩坏的梯度项，于是对其分解（为text项和bias项）：</p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-4.png"></p><p>2. 通过去除bias项构建DDS Loss：</p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-5.png"></p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-6.png"><br>其insight是只想用新的文本描述来更改图像的一部分，所以认为reference图像-文本对的SDS梯度等价于bias项，因此减去它得到的DDS Loss就是text项。</p><p>3. 正则化项</p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-7.png"><br>目标是提高fidelity。</p><p>4. warm up</p><p>调整CFG Guidance（即参数w）</p><p>四、实验结果：</p><ol><li>CLIP Score和LPIPS</li></ol><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-8.png"><br>2. Zero shot image editing qualitative comparison</p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-9.png"><br>3. Image-to-Image translation comparison</p><p><img src="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-10.png"><br>5. Ablation：主要是比较不同CFG guidance</p><hr><p>评价：</p><ol><li>数学原理并不是很靠谱</li><li>效果还不错</li><li>依然受于CFG分数困扰</li><li>有点像negative prompt的思路</li></ol><hr><p>推荐相关阅读</p><ul><li>Collaborative Score Distillation for Consistent Visual Synthesis</li><li>ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</li><li>DreamFusion: Text-to-3D using 2D Diffusion</li></ul>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html"></summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;论文链接：&lt;a href=&quot;http://arxiv.org/</summary>
       
     
     
