@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Good Morning</title>
+  
+  <subtitle>子喵的个人博客</subtitle>
+  <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://y-ichen.github.io/"/>
+  <updated>2023-08-10T17:13:02.144Z</updated>
+  <id>http://y-ichen.github.io/</id>
+  
+  <author>
+    <name>Yichen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OmniObject3D - 每日一读[8.8]</title>
+    <link href="http://y-ichen.github.io/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/"/>
+    <id>http://y-ichen.github.io/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/</id>
+    <published>2023-08-07T16:56:03.000Z</published>
+    <updated>2023-08-10T17:13:02.144Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pixelNeRF - 每日一读[8.7]</title>
+    <link href="http://y-ichen.github.io/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/"/>
+    <id>http://y-ichen.github.io/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/</id>
+    <published>2023-08-06T16:55:27.000Z</published>
+    <updated>2023-08-10T17:12:56.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DreamSparse - 每日一读[7.19]</title>
+    <link href="http://y-ichen.github.io/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/"/>
+    <id>http://y-ichen.github.io/2023/07/19/DreamSparse-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-19/</id>
+    <published>2023-07-18T16:54:48.000Z</published>
+    <updated>2023-08-10T17:13:13.988Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prompt-to-Prompt - 每日一读[7.18]</title>
+    <link href="http://y-ichen.github.io/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/"/>
+    <id>http://y-ichen.github.io/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/</id>
+    <published>2023-07-17T16:54:22.000Z</published>
+    <updated>2023-08-10T17:12:36.001Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prompt Diffusion - 每日一读[7.17]</title>
+    <link href="http://y-ichen.github.io/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/"/>
+    <id>http://y-ichen.github.io/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/</id>
+    <published>2023-07-16T16:53:56.000Z</published>
+    <updated>2023-08-10T17:12:46.894Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>InstructPix2Pix - 每日一读[7.16]</title>
+    <link href="http://y-ichen.github.io/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/"/>
+    <id>http://y-ichen.github.io/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/</id>
+    <published>2023-07-15T16:53:29.000Z</published>
+    <updated>2023-08-10T17:13:09.772Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DreamFusion - 每日一读[7.15]</title>
+    <link href="http://y-ichen.github.io/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/"/>
+    <id>http://y-ichen.github.io/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/</id>
+    <published>2023-07-14T16:52:43.000Z</published>
+    <updated>2023-08-10T17:13:18.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Collaborative Score Distillation - 每日一读[7.14]</title>
+    <link href="http://y-ichen.github.io/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/"/>
+    <id>http://y-ichen.github.io/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/</id>
+    <published>2023-07-13T16:14:56.000Z</published>
+    <updated>2023-08-10T17:13:25.904Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ProlificDreamer - 每日一读[7.13]</title>
+    <link href="http://y-ichen.github.io/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/"/>
+    <id>http://y-ichen.github.io/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/</id>
+    <published>2023-07-12T16:46:19.000Z</published>
+    <updated>2023-08-10T17:12:50.672Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Delta Denoising Score - 每日一读[7.12]</title>
+    <link href="http://y-ichen.github.io/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/"/>
+    <id>http://y-ichen.github.io/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/</id>
+    <published>2023-07-11T16:27:02.000Z</published>
+    <updated>2023-08-10T17:13:22.745Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
+  
+</feed>
