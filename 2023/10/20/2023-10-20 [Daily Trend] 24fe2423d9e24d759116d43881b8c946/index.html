@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Daily Trend [10-20] | Good Morning</title><meta name="author" content="Yichen"><meta name="copyright" content="Yichen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="【1】MAGVIT: Masked Generative Video Transformer【URL】http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2212.05199 【Time】2023-04-04 一、研究领域 视频生成、视觉分词器 二、研究动机 受到最近 DALL·E 等 generative image transformers 的成功的启发，希望通过利用 masked token mode">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Daily Trend [10-20]">
+<meta property="og:url" content="http://y-ichen.github.io/2023/10/20/2023-10-20%20[Daily%20Trend]%2024fe2423d9e24d759116d43881b8c946/index.html">
+<meta property="og:site_name" content="Good Morning">
+<meta property="og:description" content="【1】MAGVIT: Masked Generative Video Transformer【URL】http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2212.05199 【Time】2023-04-04 一、研究领域 视频生成、视觉分词器 二、研究动机 受到最近 DALL·E 等 generative image transformers 的成功的启发，希望通过利用 masked token mode">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://y-ichen.github.io/img/avatar.jpg">
+<meta property="article:published_time" content="2023-10-19T16:13:47.000Z">
+<meta property="article:modified_time" content="2023-10-20T05:47:39.691Z">
+<meta property="article:author" content="Yichen">
+<meta property="article:tag" content="read">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://y-ichen.github.io/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://y-ichen.github.io/2023/10/20/2023-10-20%20[Daily%20Trend]%2024fe2423d9e24d759116d43881b8c946/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Daily Trend [10-20]',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-10-20 13:47:39'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Good Morning" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Good Morning"><span class="site-name">Good Morning</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Daily Trend [10-20]</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-10-19T16:13:47.000Z" title="Created 2023-10-20 00:13:47">2023-10-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-10-20T05:47:39.691Z" title="Updated 2023-10-20 13:47:39">2023-10-20</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Daily Trend [10-20]"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="【1】MAGVIT-Masked-Generative-Video-Transformer"><a href="#【1】MAGVIT-Masked-Generative-Video-Transformer" class="headerlink" title="【1】MAGVIT: Masked Generative Video Transformer"></a>【1】MAGVIT: Masked Generative Video Transformer</h2><p>【URL】<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2212.05199">http://arxiv.org/abs/2212.05199</a></p>
+<p>【Time】2023-04-04</p>
+<p>一、研究领域</p>
+<p>视频生成、视觉分词器</p>
+<p>二、研究动机</p>
+<p>受到最近 DALL·E 等 generative image transformers 的成功的启发，希望通过利用 masked token modeling 和 multi-task learning 提出一种高效且有效的（多任务）视频生成模型。</p>
+<p>三、方法与技术</p>
+<p>Base Model 是 non-autoregressive transformers；分两个阶段训练MAGVIT：</p>
+<p>（1）Spatial-Temporal Tokenization：目的是将video离散化为tokens。基于 image VQGAN 构建 video VQ autoencoder，特别设计为3D-VQ架构，以对时间动态建模。初始化使用2D-VQ的权重，训练用的损失是逐帧的image perceptual loss。</p>
+<p>（2）Multi-Task Masked Token Modeling：训练时，采用各种masking方案来促进不同条件下视频生成任务的学习。一共定义了10个任务。推理时，使用非自回归decoding method根据 K 个步骤的输入条件生成video tokens。</p>
+<p><img src="/2023/10/20/2023-10-20%20[Daily%20Trend]%2024fe2423d9e24d759116d43881b8c946/Untitled.png" alt="Untitled"></p>
+<p>四、总结</p>
+<p>有点好奇为什么一定要用non-autoregressive的架构。</p>
+<p>五、推荐相关阅读</p>
+<p>Language Model Beats Diffusion – Tokenizer is Key to Visual Generation</p>
+<h2 id="【2】DINOv2-Learning-Robust-Visual-Features-without-Supervision"><a href="#【2】DINOv2-Learning-Robust-Visual-Features-without-Supervision" class="headerlink" title="【2】DINOv2: Learning Robust Visual Features without Supervision"></a>【2】DINOv2: Learning Robust Visual Features without Supervision</h2><p>【URL】<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2304.07193">http://arxiv.org/abs/2304.07193</a></p>
+<p>【Time】2023-04-14</p>
+<p>一、研究领域</p>
+<p>通用视觉特征，Data Selection (automatic pipeline)</p>
+<p>二、研究动机</p>
+<p>学习与任务无关的预训练表示已成为自然语言处理 (NLP) 的标准，作者希望探索：如果对大量 selected data 进行预训练，self-supervised learning 是否能够学习通用的视觉特征。</p>
+<p>三、方法与技术</p>
+<p>（1）Data Processing：过程直观如下</p>
+<p><img src="/2023/10/20/2023-10-20%20[Daily%20Trend]%2024fe2423d9e24d759116d43881b8c946/Untitled%201.png" alt="Untitled"></p>
+<p>（2）Discriminative Self-supervised Pre-training：包括 Image-level objective，Patch-level objective，Untying head weights between both objectives，Sinkhorn-Knopp centering，KoLeo regularizer，Adapting the resolution</p>
+<p>（3）Efficient implementation：一些加速和成本节约的实现</p>
+<p>四、总结</p>
+<p>DINOv2 是 一系列新的图像编码器，在没有监督的情况下对大量精选数据进行预训练。这是第一个针对图像数据的 SSL 工作，它产生的视觉特征可以缩小与（弱）监督替代方案在各种基准测试中的性能差距，并且无需进行微调。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://y-ichen.github.io">Yichen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://y-ichen.github.io/2023/10/20/2023-10-20%20[Daily%20Trend]%2024fe2423d9e24d759116d43881b8c946/">http://y-ichen.github.io/2023/10/20/2023-10-20%20[Daily%20Trend]%2024fe2423d9e24d759116d43881b8c946/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/read/">read</a></div><div class="post_share"><div class="social-share" data-image="/img/avatar.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/10/19/2023-10-19%20%5BDaily%20Trend%5D%2075e69e1cb34e4bb686c06d695a01af7b/" title="Daily Trend [10-19]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Daily Trend [10-19]</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2023/10/17/2023-10-17%20%5BDaily%20Trend%5D%20c6fbf6db83ca47788299097c9140f345/" title="Daily Trend [10-17]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-17</div><div class="title">Daily Trend [10-17]</div></div></a></div><div><a href="/2023/10/19/2023-10-19%20%5BDaily%20Trend%5D%2075e69e1cb34e4bb686c06d695a01af7b/" title="Daily Trend [10-19]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-19</div><div class="title">Daily Trend [10-19]</div></div></a></div><div><a href="/2023/10/18/2023-10-18%20%5BDaily%20Trend%5D%207346f7edd20740b7adff61f146c959b8/" title="Daily Trend [10-18]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-18</div><div class="title">Daily Trend [10-18]</div></div></a></div><div><a href="/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/" title="Delta Denoising Score - 每日一读[7.12]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-07-12</div><div class="title">Delta Denoising Score - 每日一读[7.12]</div></div></a></div><div><a href="/2023/10/16/2023-10-16%208a4905f46c264b90be77b731b977f16e/" title="Daily Trend [10-16]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-16</div><div class="title">Daily Trend [10-16]</div></div></a></div><div><a href="/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/" title="OmniObject3D - 每日一读[8.8]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-08-08</div><div class="title">OmniObject3D - 每日一读[8.8]</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Yichen</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Y-ichen"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS链接"><i class="fa fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E3%80%901%E3%80%91MAGVIT-Masked-Generative-Video-Transformer"><span class="toc-number">1.</span> <span class="toc-text">【1】MAGVIT: Masked Generative Video Transformer</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E3%80%902%E3%80%91DINOv2-Learning-Robust-Visual-Features-without-Supervision"><span class="toc-number">2.</span> <span class="toc-text">【2】DINOv2: Learning Robust Visual Features without Supervision</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/20/2023-10-20%20%5BDaily%20Trend%5D%2024fe2423d9e24d759116d43881b8c946/" title="Daily Trend [10-20]">Daily Trend [10-20]</a><time datetime="2023-10-19T16:13:47.000Z" title="Created 2023-10-20 00:13:47">2023-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/19/2023-10-19%20%5BDaily%20Trend%5D%2075e69e1cb34e4bb686c06d695a01af7b/" title="Daily Trend [10-19]">Daily Trend [10-19]</a><time datetime="2023-10-18T16:14:42.000Z" title="Created 2023-10-19 00:14:42">2023-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/18/2023-10-18%20%5BDaily%20Trend%5D%207346f7edd20740b7adff61f146c959b8/" title="Daily Trend [10-18]">Daily Trend [10-18]</a><time datetime="2023-10-17T16:15:59.000Z" title="Created 2023-10-18 00:15:59">2023-10-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/17/2023-10-17%20%5BDaily%20Trend%5D%20c6fbf6db83ca47788299097c9140f345/" title="Daily Trend [10-17]">Daily Trend [10-17]</a><time datetime="2023-10-16T16:14:27.000Z" title="Created 2023-10-17 00:14:27">2023-10-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/16/2023-10-16%208a4905f46c264b90be77b731b977f16e/" title="Daily Trend [10-16]">Daily Trend [10-16]</a><time datetime="2023-10-15T16:14:29.000Z" title="Created 2023-10-16 00:14:29">2023-10-16</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By Yichen</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
