@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-01T10:27:36.255Z</updated>
+  <updated>2023-11-02T10:39:48.790Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-02]</title>
+    <link href="http://y-ichen.github.io/2023/11/02/2023-11-02%20[Daily%20Trend]%2020ffdf85a5154c1dbc515665fe16462b/"/>
+    <id>http://y-ichen.github.io/2023/11/02/2023-11-02%20[Daily%20Trend]%2020ffdf85a5154c1dbc515665fe16462b/</id>
+    <published>2023-11-01T16:18:39.000Z</published>
+    <updated>2023-11-02T10:39:48.790Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】Frozen-Transformers-in-Language-Models-Are-Effective-Visual-Encoder-Layers&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-01]</title>
@@ -460,30 +483,6 @@
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/1.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;论文链接：&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Delta Denoising Score - 每日一读[7.12]</title>
-    <link href="http://y-ichen.github.io/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/"/>
-    <id>http://y-ichen.github.io/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/</id>
-    <published>2023-07-11T16:27:02.000Z</published>
-    <updated>2023-08-10T17:13:22.745Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/12/Delta-Denoising-Score-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-12/7-12-1.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;论文链接：&lt;a</summary>
         
       
     
