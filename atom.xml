@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-02T10:39:48.790Z</updated>
+  <updated>2023-11-03T10:09:34.014Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-03]</title>
+    <link href="http://y-ichen.github.io/2023/11/03/2023-11-03%20[Daily%20Trend]%20a1537a0aed924c5aa8776d517d634754/"/>
+    <id>http://y-ichen.github.io/2023/11/03/2023-11-03%20[Daily%20Trend]%20a1537a0aed924c5aa8776d517d634754/</id>
+    <published>2023-11-02T16:18:09.000Z</published>
+    <updated>2023-11-03T10:09:34.014Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】FreeNoise-Tuning-Free-Longer-Video-Diffusion-via-Noise-Rescheduling&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-02]</title>
@@ -456,31 +479,6 @@
         
         
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/1.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;论文链接：&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ProlificDreamer - 每日一读[7.13]</title>
-    <link href="http://y-ichen.github.io/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/"/>
-    <id>http://y-ichen.github.io/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/</id>
-    <published>2023-07-12T16:46:19.000Z</published>
-    <updated>2023-08-10T17:12:50.672Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/13/ProlificDreamer-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-13/1.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;论文链接：&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
