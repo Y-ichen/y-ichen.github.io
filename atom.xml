@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-03T10:09:34.014Z</updated>
+  <updated>2023-11-09T09:10:34.691Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-09]</title>
+    <link href="http://y-ichen.github.io/2023/11/09/2023-11-09%20[Daily%20Trend]%20309662a582584d0f9cc678aa20c4aac2/"/>
+    <id>http://y-ichen.github.io/2023/11/09/2023-11-09%20[Daily%20Trend]%20309662a582584d0f9cc678aa20c4aac2/</id>
+    <published>2023-11-08T16:17:10.000Z</published>
+    <updated>2023-11-09T09:10:34.691Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】RoboGen-Towards-Unleashing-Infinite-Data-for-Automated-Robot-Learning-via-Generative-Simulation&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-03]</title>
@@ -454,31 +477,6 @@
         
         
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/1.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;论文链接：&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Collaborative Score Distillation - 每日一读[7.14]</title>
-    <link href="http://y-ichen.github.io/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/"/>
-    <id>http://y-ichen.github.io/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/</id>
-    <published>2023-07-13T16:14:56.000Z</published>
-    <updated>2023-08-10T17:13:25.904Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/14/Collaborative-Score-Distillation-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-14/1.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;论文链接：&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
