@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-09T09:10:34.691Z</updated>
+  <updated>2023-11-15T11:43:22.770Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-15]</title>
+    <link href="http://y-ichen.github.io/2023/11/15/2023-11-15%20[Daily%20Trend]%2087d3b3e92e424da5af4c3ae16ade036b/"/>
+    <id>http://y-ichen.github.io/2023/11/15/2023-11-15%20[Daily%20Trend]%2087d3b3e92e424da5af4c3ae16ade036b/</id>
+    <published>2023-11-14T16:19:43.000Z</published>
+    <updated>2023-11-15T11:43:22.770Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】LRM-Large-Reconstruction-Model-for-Single-Image-to-3D&quot;&gt;&lt;a href=&quot;#【1】LRM-Large-Reconstruction-Model-for-Single-Image-to-3D&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-09]</title>
@@ -452,31 +475,6 @@
         
         
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/1.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;论文链接：&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DreamFusion - 每日一读[7.15]</title>
-    <link href="http://y-ichen.github.io/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/"/>
-    <id>http://y-ichen.github.io/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/</id>
-    <published>2023-07-14T16:52:43.000Z</published>
-    <updated>2023-08-10T17:13:18.596Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/15/DreamFusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-15/1.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;论文链接：&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
