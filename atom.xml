@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-15T11:43:22.770Z</updated>
+  <updated>2023-11-16T02:58:19.947Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-16]</title>
+    <link href="http://y-ichen.github.io/2023/11/16/2023-11-16%20[Daily%20Trend]%207dcc30c54b3b44179124971ca541cf05/"/>
+    <id>http://y-ichen.github.io/2023/11/16/2023-11-16%20[Daily%20Trend]%207dcc30c54b3b44179124971ca541cf05/</id>
+    <published>2023-11-15T16:10:58.000Z</published>
+    <updated>2023-11-16T02:58:19.947Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】MARS-An-Instance-aware-Modular-and-Realistic-Simulator-for-Autonomous-Driving&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-15]</title>
@@ -450,31 +473,6 @@
         
         
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/1.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;论文链接：&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>InstructPix2Pix - 每日一读[7.16]</title>
-    <link href="http://y-ichen.github.io/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/"/>
-    <id>http://y-ichen.github.io/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/</id>
-    <published>2023-07-15T16:53:29.000Z</published>
-    <updated>2023-08-10T17:13:09.772Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/16/InstructPix2Pix-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-16/1.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;论文链接：&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
