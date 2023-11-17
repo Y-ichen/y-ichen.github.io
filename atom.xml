@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-16T02:58:19.947Z</updated>
+  <updated>2023-11-17T01:08:15.729Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-17]</title>
+    <link href="http://y-ichen.github.io/2023/11/17/2023-11-17%20[Daily%20Trend]%20d243dd83ede648efa4e4a4b078b27b36/"/>
+    <id>http://y-ichen.github.io/2023/11/17/2023-11-17%20[Daily%20Trend]%20d243dd83ede648efa4e4a4b078b27b36/</id>
+    <published>2023-11-16T16:09:08.000Z</published>
+    <updated>2023-11-17T01:08:15.729Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】ZeroNVS-Zero-Shot-360-Degree-View-Synthesis-from-a-Single-Real-Image&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-16]</title>
@@ -448,31 +471,6 @@
         
         
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/18/Prompt-to-Prompt-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-18/1.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;论文链接：&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Prompt Diffusion - 每日一读[7.17]</title>
-    <link href="http://y-ichen.github.io/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/"/>
-    <id>http://y-ichen.github.io/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/</id>
-    <published>2023-07-16T16:53:56.000Z</published>
-    <updated>2023-08-10T17:12:46.894Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/07/17/Prompt-Diffusion-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-7-17/1.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;论文链接：&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
