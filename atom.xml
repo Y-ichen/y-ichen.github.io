@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-22T01:21:24.917Z</updated>
+  <updated>2023-11-23T02:40:27.078Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-23]</title>
+    <link href="http://y-ichen.github.io/2023/11/23/2023-11-23%20[Daily%20Trend]%204ac1840f3c34484ea3886e94d5ed704a/"/>
+    <id>http://y-ichen.github.io/2023/11/23/2023-11-23%20[Daily%20Trend]%204ac1840f3c34484ea3886e94d5ed704a/</id>
+    <published>2023-11-22T16:10:40.000Z</published>
+    <updated>2023-11-23T02:40:27.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】Video-LLaVA-Learning-United-Visual-Representation-by-Alignment-Before-Projection&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-22]</title>
@@ -444,30 +467,6 @@
         
         
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/08/08/OmniObject3D-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-8/1.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;论文链接：&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pixelNeRF - 每日一读[8.7]</title>
-    <link href="http://y-ichen.github.io/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/"/>
-    <id>http://y-ichen.github.io/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/</id>
-    <published>2023-08-06T16:55:27.000Z</published>
-    <updated>2023-08-10T17:12:56.096Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/08/07/pixelNeRF-%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%BB-8-7/1.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;论文链接：&lt;a</summary>
         
       
