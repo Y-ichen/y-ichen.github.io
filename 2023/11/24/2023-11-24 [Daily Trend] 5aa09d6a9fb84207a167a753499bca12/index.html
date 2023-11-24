@@ -1,0 +1,214 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Daily Trend [11-24] | Good Morning</title><meta name="author" content="Yichen"><meta name="copyright" content="Yichen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="【1】Vision Transformers Need Registers【URL】http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2309.16588 【Time】2023-09-28 一、研究领域 Self-surpervised ViT Networks，机器学习解释 二、研究动机 作者注意到许多 modern vision transformers 的注意力特征图中存在一些神秘的 artifac">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Daily Trend [11-24]">
+<meta property="og:url" content="http://y-ichen.github.io/2023/11/24/2023-11-24%20[Daily%20Trend]%205aa09d6a9fb84207a167a753499bca12/index.html">
+<meta property="og:site_name" content="Good Morning">
+<meta property="og:description" content="【1】Vision Transformers Need Registers【URL】http:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2309.16588 【Time】2023-09-28 一、研究领域 Self-surpervised ViT Networks，机器学习解释 二、研究动机 作者注意到许多 modern vision transformers 的注意力特征图中存在一些神秘的 artifac">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://y-ichen.github.io/img/avatar.jpg">
+<meta property="article:published_time" content="2023-11-23T16:09:41.000Z">
+<meta property="article:modified_time" content="2023-11-24T01:41:45.070Z">
+<meta property="article:author" content="Yichen">
+<meta property="article:tag" content="read">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://y-ichen.github.io/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://y-ichen.github.io/2023/11/24/2023-11-24%20[Daily%20Trend]%205aa09d6a9fb84207a167a753499bca12/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Daily Trend [11-24]',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-11-24 09:41:45'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Good Morning" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Good Morning"><span class="site-name">Good Morning</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Daily Trend [11-24]</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-11-23T16:09:41.000Z" title="Created 2023-11-24 00:09:41">2023-11-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-11-24T01:41:45.070Z" title="Updated 2023-11-24 09:41:45">2023-11-24</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Daily Trend [11-24]"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="【1】Vision-Transformers-Need-Registers"><a href="#【1】Vision-Transformers-Need-Registers" class="headerlink" title="【1】Vision Transformers Need Registers"></a>【1】Vision Transformers Need Registers</h2><p>【URL】<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2309.16588">http://arxiv.org/abs/2309.16588</a></p>
+<p>【Time】2023-09-28</p>
+<p>一、研究领域</p>
+<p>Self-surpervised ViT Networks，机器学习解释</p>
+<p>二、研究动机</p>
+<p>作者注意到许多 modern vision transformers 的注意力特征图中存在一些神秘的 artifacts（唯独除了 DINO 模型），特别是 DINO v2 也出现了类似的现象。于是这项工作中着手于更好地理解这种现象并开发检测这些 artifacts 的方法。</p>
+<blockquote>
+<p>“In this paper, we identify and characterize artifacts in feature maps of both supervised and self-supervised ViT networks.”</p>
+</blockquote>
+<p><img src="/2023/11/24/2023-11-24%20[Daily%20Trend]%205aa09d6a9fb84207a167a753499bca12/Untitled.png" alt="Illustration of artifacts observed in the attention maps of modern vision transformers."></p>
+<p>Illustration of artifacts observed in the attention maps of modern vision transformers.</p>
+<p>三、方法与技术</p>
+<p><strong>提出假设：</strong>模型学习识别包含很少有用信息的 patch，并回收相应的 tokens 来聚合全局图像信息，同时丢弃空间信息。</p>
+<blockquote>
+<p>We propose the following interpretation to these elements: the model learns to recognize patches containing little useful information, and recycle the corresponding tokens to aggregate global image information while discarding spatial information.</p>
+</blockquote>
+<p><strong>实验过程和观察结果：</strong></p>
+<p><strong>（1）定义 artifacts (outliers) 是 “high-norm” tokens：</strong>作者观察到，“artifact” patches 和其他 patches 之间的一个重要区别是它们在模型输出中的 token embedding 的 norm，因此，将 norm 高于 150 的 tokens 视为 “high-norm” tokens，需要研究它们相对于 regular tokens 的性质。</p>
+<p><strong>结论1：Artifacts are high-norm outlier tokens.</strong></p>
+<p><strong>（2）观察 outliers 出现的条件：</strong>在 DINO v2 的训练期间观察，发现这些 outliers 仅在三分之一的训练后出现，并且分析了六种不同尺寸的模型，发现只有三个最大的模型会表现出这种异常。</p>
+<p><strong>结论2：Outliers appear during the training of large models.</strong></p>
+<p><strong>（3）观察 “high-norm” tokens 出现的位置：</strong>在 patch embedding layer 之后测量 “high-norm” tokens 与其 4 个邻居之间的余弦相似度，观察到高范数标记出现在与其邻居非常相似的 patch 上。这表明这些 patch 包含冗余信息，并且模型可以丢弃它们的信息而不损害图像表示的质量。</p>
+<p><strong>结论3：High-norm tokens appear where patch information is redundant.</strong></p>
+<p><strong>（4）观察 “high-norm” tokens 包含多少局部信息：</strong>设计了两个任务，分别是 position prediction 和 pixel reconstruction，用于 probe the patch embeddings for different types of information。</p>
+<ul>
+<li><strong>position prediction：</strong>训练一个线性模型来预测图像中每个 patch token 的位置，并测量其 accuracy。观察到 “high-norm” tokens 的准确度比其他 tokens 低得多，说明 <strong>“high-norm” tokens contain less information about their position in the image</strong>.</li>
+<li>pixel reconstruction：我们训练一个线性模型来根据 patch embeddings 预测图像的像素值，并测量其 accuracy。同样观察到 “high-norm” tokens 的准确度比其他 tokens 低得多，说明 <strong>high-norm tokens contain less information to reconstruct the image than the others.</strong></li>
+</ul>
+<p><strong>结论4：High-norm tokens hold little local information.</strong></p>
+<p>（5）观察 “high-norm” tokens 包含多少全局信息：</p>
+<ul>
+<li><strong>logistic classification：</strong>对于分类数据集中的每个图像，通过 DINO v2-g 网络处理它并提取 patch embeddings。然后从这些 patch embeddings 中，随机选择一个 token，无论是 high-norm 还是 regular 的。然后将该 token 视为 image representation。然后，训练一个 logistic regression classifier 以根据该 image representation 来预测图像类别，并测量其 accuracy。观察到 “high-norm” tokens 的准确度比其他 tokens 高得多，说明 <strong>“high-norm” tokens contain more global information than other patch tokens.</strong></li>
+</ul>
+<p><strong>结论5：Artifacts hold global information.</strong></p>
+<p><strong>根据实验结果修正假设：</strong>经过充分训练的大型模型学习识别冗余标记，并将它们用作存储、处理和检索全局信息的位置。</p>
+<blockquote>
+<p>Having made these observations, we make the following hypothesis: large, sufficiently trained models learn to recognize redundant tokens, and to use them as places to store, process and retrieve global information.</p>
+</blockquote>
+<p><strong>根据修正的假设提出问题：</strong>这种行为会导致模型丢弃局部补丁信息，从而可能导致密集预测任务的性能下降。</p>
+<blockquote>
+<p>Furthermore, we posit that while this behavior is not bad in itself, the fact that it happens inside the patch tokens is undesirable. Indeed, it leads the model to discard local patch information (Tab. 5b), possibly incurring decreased performance on dense prediction tasks.</p>
+</blockquote>
+<p><strong>提出解决方案：</strong>明确地将新的 token 添加到序列中，模型可以学习将其用作寄存器。特别地，这些添加到序列中的 token 不为模型添加任何信息，并且它们的输出值不用于任何目的，也不需要对它们做任何监督。这些 “无用” 的 token 将代替本该出现的 High-norm tokens 扮演 “寄存器” 的角色。方案非常简单，如下图的 pipeline 所示：</p>
+<p><img src="/2023/11/24/2023-11-24%20[Daily%20Trend]%205aa09d6a9fb84207a167a753499bca12/Untitled%201.png" alt="Untitled"></p>
+<p>四、总结</p>
+<p>无论是从 setting, experiments, 还是 conclusion 来说，这都是特别特别有意思的一项工作。最终论证了为模型显示添加一些看似毫无用处的 token 可以大大提升它的性能，也解释了较大的视觉模型工作过程中会自发地形成一些类似于 “寄存器” 的东西来帮助其记忆全局信息。</p>
+<p>五、推荐相关阅读</p>
+<p>Memory transformer. arXiv preprint arXiv:2006.11527, 2020.</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://y-ichen.github.io">Yichen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://y-ichen.github.io/2023/11/24/2023-11-24%20[Daily%20Trend]%205aa09d6a9fb84207a167a753499bca12/">http://y-ichen.github.io/2023/11/24/2023-11-24%20[Daily%20Trend]%205aa09d6a9fb84207a167a753499bca12/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/read/">read</a></div><div class="post_share"><div class="social-share" data-image="/img/avatar.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/11/23/2023-11-23%20%5BDaily%20Trend%5D%204ac1840f3c34484ea3886e94d5ed704a/" title="Daily Trend [11-23]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Daily Trend [11-23]</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2023/10/18/2023-10-18%20%5BDaily%20Trend%5D%207346f7edd20740b7adff61f146c959b8/" title="Daily Trend [10-18]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-18</div><div class="title">Daily Trend [10-18]</div></div></a></div><div><a href="/2023/10/20/2023-10-20%20%5BDaily%20Trend%5D%2024fe2423d9e24d759116d43881b8c946/" title="Daily Trend [10-20]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-20</div><div class="title">Daily Trend [10-20]</div></div></a></div><div><a href="/2023/10/16/2023-10-16%208a4905f46c264b90be77b731b977f16e/" title="Daily Trend [10-16]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-16</div><div class="title">Daily Trend [10-16]</div></div></a></div><div><a href="/2023/10/17/2023-10-17%20%5BDaily%20Trend%5D%20c6fbf6db83ca47788299097c9140f345/" title="Daily Trend [10-17]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-17</div><div class="title">Daily Trend [10-17]</div></div></a></div><div><a href="/2023/10/19/2023-10-19%20%5BDaily%20Trend%5D%2075e69e1cb34e4bb686c06d695a01af7b/" title="Daily Trend [10-19]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-19</div><div class="title">Daily Trend [10-19]</div></div></a></div><div><a href="/2023/10/25/2023-10-25%20%5BDaily%20Trend%5D%20c3f17d22438a4bfaa23d09964da359f4/" title="Daily Trend [10-25]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-25</div><div class="title">Daily Trend [10-25]</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Yichen</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Y-ichen"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS链接"><i class="fa fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E3%80%901%E3%80%91Vision-Transformers-Need-Registers"><span class="toc-number">1.</span> <span class="toc-text">【1】Vision Transformers Need Registers</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/24/2023-11-24%20%5BDaily%20Trend%5D%205aa09d6a9fb84207a167a753499bca12/" title="Daily Trend [11-24]">Daily Trend [11-24]</a><time datetime="2023-11-23T16:09:41.000Z" title="Created 2023-11-24 00:09:41">2023-11-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/23/2023-11-23%20%5BDaily%20Trend%5D%204ac1840f3c34484ea3886e94d5ed704a/" title="Daily Trend [11-23]">Daily Trend [11-23]</a><time datetime="2023-11-22T16:10:40.000Z" title="Created 2023-11-23 00:10:40">2023-11-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/22/2023-11-22%20%5BDaily%20Trend%5D%20a222620bde6c4b1c8e982424af087a4e/" title="Daily Trend [11-22]">Daily Trend [11-22]</a><time datetime="2023-11-21T16:09:21.000Z" title="Created 2023-11-22 00:09:21">2023-11-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/21/2023-11-21%20%5BDaily%20Trend%5D%20b471bf9a6fdb4ed093df8dae68eda4aa/" title="Daily Trend [11-21]">Daily Trend [11-21]</a><time datetime="2023-11-20T16:09:08.000Z" title="Created 2023-11-21 00:09:08">2023-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/17/2023-11-17%20%5BDaily%20Trend%5D%20d243dd83ede648efa4e4a4b078b27b36/" title="Daily Trend [11-17]">Daily Trend [11-17]</a><time datetime="2023-11-16T16:09:08.000Z" title="Created 2023-11-17 00:09:08">2023-11-17</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By Yichen</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
