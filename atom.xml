@@ -6,7 +6,7 @@
   <link href="http://y-ichen.github.io/atom.xml" rel="self"/>
   
   <link href="http://y-ichen.github.io/"/>
-  <updated>2023-11-24T01:41:45.070Z</updated>
+  <updated>2023-11-29T07:09:22.307Z</updated>
   <id>http://y-ichen.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Trend [11-29]</title>
+    <link href="http://y-ichen.github.io/2023/11/29/2023-11-29%20[Daily%20Trend]%20744dda0cdf6743a39763020f8766e5c9/"/>
+    <id>http://y-ichen.github.io/2023/11/29/2023-11-29%20[Daily%20Trend]%20744dda0cdf6743a39763020f8766e5c9/</id>
+    <published>2023-11-28T16:15:09.000Z</published>
+    <updated>2023-11-29T07:09:22.307Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【1】Stable-Video-Diffusion-Scaling-Latent-Video-Diffusion-Models-to-Large-Datasets&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily Trend [11-24]</title>
@@ -443,30 +466,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;【1】RT-2-Vision-Language-Action-Models-Transfer-Web-Knowledge-to-Robotic-Control&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="read" scheme="http://y-ichen.github.io/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Daily Trend [10-16]</title>
-    <link href="http://y-ichen.github.io/2023/10/16/2023-10-16%208a4905f46c264b90be77b731b977f16e/"/>
-    <id>http://y-ichen.github.io/2023/10/16/2023-10-16%208a4905f46c264b90be77b731b977f16e/</id>
-    <published>2023-10-15T16:14:29.000Z</published>
-    <updated>2023-10-16T06:30:20.853Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;1【Title】AgentTuning: Enabling Generalized Agent Abilities for LLMs&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
         
       
     
